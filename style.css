@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 5rem 0rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+nav {
+    background-color: rgb(65, 150, 150);
+    color: white;
+    padding: 4rem;
+}
+
+nav h1 {
+    float: left;
+    margin-top: -2rem;
+
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+    margin-top: -2rem;
+}
+
+
+.hero-section {
+    background-image: url(/image/food.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    padding-top: 15rem;
+}
+
+.hero-section button {
+    padding: 1rem 4rem;
+    background-color: rgb(54, 140, 226);
+    border: none;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+
+.form-section {
+    text-align: center;
+
+}
+
+.form-section input,
+label,
+textarea {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.8rem;
+}
+
+input,
+textarea {
+    width: 25%;
+    border: 1px solid rgb(56, 113, 171);
+
+}
+
+input {
+    height: 6vh;
+}
+
+input:focus {
+    border: 2px solid rgb(56, 113, 171);
+}
+
+.form-section button {
+    padding: 1rem 4rem;
+    background-color: rgb(56, 113, 171);
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
